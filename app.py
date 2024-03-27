@@ -18,7 +18,7 @@ import zipfile
 import os
 import subprocess
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "YOUR API KEY"
 
 def get_text_from_pdf(pdf_docs):
     text = ""
